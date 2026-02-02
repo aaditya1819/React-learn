@@ -9,6 +9,7 @@ This repository is organized into different modules, each focusing on a specific
 | Folder | Description | Tech Stack |
 | :--- | :--- | :--- |
 | **[01vitereact](./01vitereact)** | Initial setup using Vite. Covers components, props, and basic hooks. | Vite, React, CSS |
+| **[02counter](./02counter)** | Understanding React Hooks by building a simple counter application. | React, Hooks (useState) |
 | **[custom_react](./custom_react)** | Deep dive into how React works under the hood by building a custom renderer. | JavaScript, HTML |
 
 ---
@@ -48,7 +49,8 @@ To explore these projects locally, follow these steps:
 - [x] Understanding JSX and Components
 - [x] Props and State Management
 - [x] Custom React Renderer (Under the hood)
-- [ ] Hooks (useEffect, useContext, useReducer, etc.)
+- [x] Hooks (useState)
+- [ ] More Hooks (useEffect, useContext, useReducer, etc.)
 - [ ] React Router
 - [ ] Context API & Redux Toolkit
 - [ ] API Integrations (Fetch/Axios)
@@ -58,6 +60,7 @@ To explore these projects locally, follow these steps:
 
 ## ✍️ Notes
 - **01vitereact:** This was my first step. Using Vite is much faster than `create-react-app`. I learned how to structure a basic app and use `main.jsx` vs `App.jsx`.
+- **02counter:** In this project, I explored the power of Hooks, specifically `useState`. I learned why we need state management and how React magically updates the UI when state changes.
 - **custom_react:** This was a mind-blowing exercise where I understood how React translates JSX into DOM elements using a custom `render` function.
 
 ---
