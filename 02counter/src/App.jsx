@@ -17,7 +17,7 @@ function App() {
     setCount(count-1)
     if (count === 0) {
       alert("value is 0")
-      return
+      
       
     }
   }

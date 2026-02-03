@@ -10,6 +10,7 @@ This repository is organized into different modules, each focusing on a specific
 | :--- | :--- | :--- |
 | **[01vitereact](./01vitereact)** | Initial setup using Vite. Covers components, props, and basic hooks. | Vite, React, CSS |
 | **[02counter](./02counter)** | Understanding React Hooks by building a simple counter application. | React, Hooks (useState) |
+| **[03_tailwing_props](./03_tailwing_props)** | Integrating Tailwind CSS with React and understanding how to use props. | Vite, React, Tailwind CSS |
 | **[custom_react](./custom_react)** | Deep dive into how React works under the hood by building a custom renderer. | JavaScript, HTML |
 
 ---
@@ -54,7 +55,7 @@ To explore these projects locally, follow these steps:
 - [ ] React Router
 - [ ] Context API & Redux Toolkit
 - [ ] API Integrations (Fetch/Axios)
-- [ ] Tailwind CSS Integration
+- [x] Tailwind CSS Integration
 
 ---
 
@@ -62,6 +63,7 @@ To explore these projects locally, follow these steps:
 - **01vitereact:** This was my first step. Using Vite is much faster than `create-react-app`. I learned how to structure a basic app and use `main.jsx` vs `App.jsx`.
 - **02counter:** In this project, I explored the power of Hooks, specifically `useState`. I learned why we need state management and how React magically updates the UI when state changes.
 - **custom_react:** This was a mind-blowing exercise where I understood how React translates JSX into DOM elements using a custom `render` function.
+- **03_tailwing_props:** In this project, I learned how to integrate Tailwind CSS into a Vite project and started exploring how to pass props to components for better reusability.
 
 ---
 
