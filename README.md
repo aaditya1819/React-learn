@@ -14,6 +14,7 @@ This repository is organized into different modules, each focusing on a specific
 | **[custom_react](./custom_react)** | Deep dive into how React works under the hood by building a custom renderer. | JavaScript, HTML |
 | **[04bgchanger](./04bgchanger)** | A simple background color changer app to practice state and event handling. | Vite, React, Tailwind CSS |
 | **[05passwordGenerator](./05passwordGenerator)** | A robust password generator with customizable options (Length, Numbers, Special Characters). | Vite, React, Hooks (useCallback, useEffect, useRef) |
+| **[06currency_coverter](./06currency_coverter)** | A real-time currency converter using custom hooks and external API integration. | Vite, React, Tailwind CSS |
 
 ---
 
@@ -54,10 +55,10 @@ To explore these projects locally, follow these steps:
 - [x] Custom React Renderer (Under the hood)
 - [x] Hooks (useState)
 - [x] More Hooks (useEffect, useCallback, useRef)
-- [ ] React Router (Upcoming)
-- [ ] Context API & Redux Toolkit
-- [ ] API Integrations (Fetch/Axios)
+- [x] Context API & Redux Toolkit (In Progress)
+- [x] API Integrations (Fetch/Axios)
 - [x] Tailwind CSS Integration
+- [x] Custom Hooks
 
 ---
 
@@ -68,6 +69,7 @@ To explore these projects locally, follow these steps:
 - **03_tailwing_props:** In this project, I learned how to integrate Tailwind CSS into a Vite project and started exploring how to pass props to components for better reusability.
 - **04bgchanger:** A fun project where I practiced dynamic styling in React by changing background colors using `useState`.
 - **05passwordGenerator:** An advanced drill into React hooks! I used `useCallback` for performance optimization, `useEffect` to trigger generation on dependency changes, and `useRef` for the "Copy to Clipboard" feature.
+- **06currency_coverter:** Deep dive into Custom Hooks! I learned how to create reusable hooks like `useCurrencyInfo` to fetch data from an API and manage complex states in a currency conversion tool.
 
 ---
 
