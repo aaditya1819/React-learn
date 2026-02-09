@@ -1,16 +1,52 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, real-time Currency Converter built with **React**, **Vite**, and **Tailwind CSS**. This project demonstrates the usage of **Custom Hooks** for API integration and building reusable UI components.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time Exchange Rates**: Fetches live data from external APIs.
+- **Custom Hook**: Implemented a specialized `useCurrencyInfo` hook for data fetching and state management.
+- **Reusable Components**: Clean and scalable `InputBox` component designed for currency input and selection.
+- **Dynamic UI**: Responsive and modern design using Tailwind CSS.
+- **State Management**: Efficiently handles from/to currency types and amounts.
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **API**: [Exchange Rate Host](https://api.exchangerate.host/convert) (or similar)
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/       # Reusable UI components (InputBox)
+├── hooks/            # Custom hooks (useCurrencyInfo)
+├── App.jsx           # Main application logic
+├── main.jsx          # Entry point
+└── index.css         # Global styles & Tailwind imports
+```
+
+## ⚙️ How to Run
+
+1. **Clone the repo** (if not already done).
+2. **Navigate to the directory**:
+   ```bash
+   cd 06currency_coverter
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## 🧠 Key Learnings
+
+- Developing and utilizing **Custom Hooks** in React.
+- Optimizing API calls using `useEffect`.
+- Building highly reusable and configurable components with props.
+- Managing complex form states in a React application.
